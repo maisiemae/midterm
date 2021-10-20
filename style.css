@@ -1,0 +1,72 @@
+.top-nav {
+    background-color: #460202;
+    display:flex;
+    justify-content: center;
+}
+.top-nav a {
+    float:right;
+    background-color: #460202;
+    font-size: 24px;
+    padding: 5px;
+    text-decoration:none;
+    color:white;
+}
+.top-nav a:hover {
+    background-color: #8a0000;
+}
+.wrapper {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+*{
+    margin: 0;
+    background-color:red;
+}
+
+
+h2,p,h1{
+    margin-bottom: 20px;
+    color:white;
+}
+.whole-gang {
+    background-image: url(wholegang.png);
+    height: 200px;
+    width: 25em;
+    background-repeat: no-repeat;
+    background-size: 400px;
+}
+.fred {
+    background-image: url("fred.png");
+    height:200px;
+    width:13em;
+    background-repeat: no-repeat;
+    background-size:200px;
+}
+.shaggy {
+    background-image: url("shaggy.png");
+    height:200px;
+    width:13em;
+    background-repeat: no-repeat;
+    background-size:200px;
+}
+.break {
+    flex-basis:100%;
+    height:0;
+}
+.scooby {
+    background-image: url("scooby.png");
+    height:200px;
+    width:13em;
+    background-repeat: no-repeat;
+    background-size:200px;
+}
+p{
+    padding:20px;
+}
+
+@media (max-width: 800px) {
+    * {
+        background-color:green;
+    }
+}
